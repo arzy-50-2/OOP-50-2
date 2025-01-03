@@ -1,0 +1,11 @@
+Команды на один раз для устройства ПК\Ноут
+git config --global user.name "Your name"
+git config --global user.email "your-email@example.com"
+
+Команды на один раз для проекта
+git init
+git remote add origin https://github.com/arzy-50-2/OOP-50-2.git
+
+Команды которые часта пишутся в проекте
+git add .    |  Команда копирует и сохраняет в буфер ( Невидемый )
+
