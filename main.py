@@ -1,31 +1,28 @@
 # OOP
-
+#
 # First Class
-
+# FLAT - Плоская
+# SRC - Исходный
 # add_number
 # AddNumber -
+import random
 
-# Класс
-class Person:
-    # Магикеский метод
-    def __init__(self, name, age=0, city="None"):
-        # Атрибуты класса
+# Родительский класс
+class Hero:
+
+    def __init__(self, name, hp=100, lvl=1):
+        # атрибуты класса
         self.name = name
-        self.age = age
-        self.city = city
+        self.hp = hp
+        self.lvl = lvl
 
+    def action(self):
+        return print(f"{self.name} делает первый шаг")
 
-    def introduce(self):
-        print(f"Привет меня зовут {self.name}, мне {self.age}, я живу в городе {self.city}")
+    def attack(self):
+        return print(f"{self.name} базавая атака")
 
-    def __str__(self):
-        return f"Вернул имя объекта {self.name}"
+    def rest(self):
+        self.hp += random.randint(0, 100)
 
-# Объекты класса / Экземплярами класса
-person_first = Person("Ардагер", 25, "с.Сокулук")
-person_second = Person(name="John Doe", age=33, city="None")
-
-print(person_first.age)
-person_first.introduce()
-print(person_second)
-
+        return print(f"{self.name} rest and reset hp {self.hp}")
