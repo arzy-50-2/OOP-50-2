@@ -26,26 +26,26 @@
 
 #homework_1
 
-class Hero:
-    def __init__(self, name, lvl, hp):
-        self.name = name
-        self.lvl = lvl
-        self.hp = hp
-
-    def introduce(self):
-        print(f"привет, меня зовут {self.name}, мой lvl {self.lvl}, мое hp {self.hp}")
-
-    def is_adult(self):
-        return self.lvl >= 10
-
-    def __str__(self):
-        return f"Имя: {self.name}, lvl: {self.lvl}, HP: {self.hp}"
-
-
-hero1 = Hero("Артур", 5, 100)
-hero2 = Hero("Ланселот", 15, 150)
-hero3 = Hero("Джон",7, 100)
-hero1.introduce()
-print(hero1.is_adult())  # False
-print(hero2.is_adult())  # True
-print(hero3)
+# class Hero:
+#     def __init__(self, name, lvl, hp):
+#         self.name = name
+#         self.lvl = lvl
+#         self.hp = hp
+#
+#     def introduce(self):
+#         print(f"привет, меня зовут {self.name}, мой lvl {self.lvl}, мое hp {self.hp}")
+#
+#     def is_adult(self):
+#         return self.lvl >= 10
+#
+#     def __str__(self):
+#         return f"Имя: {self.name}, lvl: {self.lvl}, HP: {self.hp}"
+#
+#
+# hero1 = Hero("Артур", 5, 100)
+# hero2 = Hero("Ланселот", 15, 150)
+# hero3 = Hero("Джон",7, 100)
+# hero1.introduce()
+# print(hero1.is_adult())  # False
+# print(hero2.is_adult())  # True
+# print(hero3)
