@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9241a39e-310d-46d5-a930-e83c626ebfcd" name="Changes" comment="" />
+    <list default="true" id="9241a39e-310d-46d5-a930-e83c626ebfcd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorks/hw3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPackage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPackage/mathutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/mathutils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +46,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.hw2.executor": "Run",
+    "Python.hw3.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Acer/PycharmProjects/PythonProject2",
@@ -49,6 +63,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\PycharmProjects\PythonProject2" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

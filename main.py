@@ -49,3 +49,41 @@
 # print(hero1.is_adult())  # False
 # print(hero2.is_adult())  # True
 # print(hero3)
+
+
+import random
+from abc import ABC, abstractmethod
+
+class Hero(ABC):
+    def __init__(self, name):
+        self.name = name
+        self.__random_int = None
+
+
+    def __generate_random_int(self):
+        self.__random_int = random.choice([1, 2, 3])
+
+    def get_random_int(self):
+        self.__generate_random_int()
+        return self.__random_int
+
+    def attack(self):
+        print(f"{self.name} выполняет атаку!")
+
+    def protection(self):
+        print(f"{self.name} защищается!")
+
+    def rest(self):
+        print(f"{self.name} отдыхает!")
+
+    @abstractmethod
+    def unique_attack(self):
+        pass
+
+    @abstractmethod
+    def unique_scream(self):
+        pass
+
+    @abstractmethod
+    def action(self):
+        pass
