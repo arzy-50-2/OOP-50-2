@@ -34,3 +34,7 @@ nano | Просмотр содержимого файлов в текущем к
 pwd | Просмотр текущего каталога
 
 
+
+
+source venv/bin/activate
+venv\Scripts\activate
