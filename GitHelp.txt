@@ -42,3 +42,20 @@ nano | Просмотр содержимого файлов в текущем к
 pwd | Просмотр текущего каталога
 
 
+
+
+source venv/bin/activate
+venv\Scripts\activate
+
+
+
+git rebase -i HEAD~2
+
+pick added: requremetns.txt
+drop update: requremetns
+
+
+control + s сохранить изменения
+control + х выйти
+
+git push origin master
